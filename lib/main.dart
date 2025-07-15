@@ -1,5 +1,7 @@
+import 'package:counterproject/changecolor.dart';
 import 'package:counterproject/counter.dart';
 import 'package:counterproject/text.dart';
+import 'package:counterproject/toggle.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:TextInputScreen(),
+      home:ToggleExample(),
       debugShowCheckedModeBanner: false,
      );
   }
